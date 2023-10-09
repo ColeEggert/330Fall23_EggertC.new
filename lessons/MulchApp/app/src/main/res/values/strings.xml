@@ -1,16 +1,20 @@
 <resources>
 
+
     <string name="mulchapp">Mulch App</string>
+
 
     <string name="main_activity_title">Select Mulch Type</string>
     <string name="mulch_type_radio_premium">Premium Bark Mulch</string>
     <string name="mulch_type_radio_special_blend">Special Blend</string>
     <string name="mulch_type_radio_triple_ground">Triple Ground</string>
 
+
     <string name="order_mulch_title">Place an Order</string>
     <string name="order_mulch_type_label">Mulch Type:</string>
     <string name="order_mulch_cubic_yards_label">Cubic Yards:</string>
     <string name="order_mulch_zip_code_label">Delivery ZIP Code:</string>
+
 
     <string name="order_summary_title">Order Summary</string>
     <string name="order_summary_delivery_details">Delivering %1$s cubic yards of %2$s mulch to:</string>

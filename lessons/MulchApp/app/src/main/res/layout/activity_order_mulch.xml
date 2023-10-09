@@ -7,6 +7,7 @@
     android:padding="16dp"
     tools:context=".OrderMulchActivity">
 
+
     <TextView
         android:id="@+id/mulchTypeAndCost"
         android:layout_width="wrap_content"
@@ -15,6 +16,7 @@
         android:textSize="16sp"
         android:layout_marginTop="16dp"
         android:layout_centerHorizontal="true" />
+
 
     <EditText
         android:id="@+id/cubicYardsInput"
@@ -26,6 +28,7 @@
         android:inputType="numberDecimal"
         android:minHeight="48dp" />
 
+
     <EditText
         android:id="@+id/streetInput"
         android:layout_width="match_parent"
@@ -34,6 +37,7 @@
         android:layout_marginTop="16dp"
         android:hint="@string/streetAddress"
         android:minHeight="48dp" />
+
 
     <EditText
         android:id="@+id/cityInput"
@@ -44,6 +48,7 @@
         android:hint="@string/city"
         android:minHeight="48dp"/>
 
+
     <EditText
         android:id="@+id/stateInput"
         android:layout_width="match_parent"
@@ -52,6 +57,7 @@
         android:layout_marginTop="16dp"
         android:hint="@string/state"
         android:minHeight="48dp" />
+
 
     <EditText
         android:id="@+id/zipCodeInput"
@@ -64,6 +70,7 @@
         android:maxLength="5"
         android:minHeight="48dp" />
 
+
     <EditText
         android:id="@+id/emailInput"
         android:layout_width="match_parent"
@@ -73,6 +80,7 @@
         android:hint="@string/emailAddress"
         android:inputType="textEmailAddress"
         android:minHeight="48dp" />
+
 
     <EditText
         android:id="@+id/phoneInput"
@@ -84,6 +92,7 @@
         android:inputType="phone"
         android:minHeight="48dp" />
 
+
     <Button
         android:id="@+id/nextButton"
         android:layout_width="wrap_content"
@@ -93,6 +102,7 @@
         android:layout_marginTop="16dp"
         android:text="Next" />
 
+
     <TextView
         android:id="@+id/mulchCostTextView"
         android:layout_width="match_parent"
@@ -100,6 +110,7 @@
         android:layout_below="@id/nextButton"
         android:layout_marginTop="16dp"
         android:text="Mulch Cost: $0.00" />
+
 
     <TextView
         android:id="@+id/salesTaxTextView"
@@ -109,6 +120,7 @@
         android:layout_marginTop="16dp"
         android:text="Sales Tax: $0.00" />
 
+
     <TextView
         android:id="@+id/deliveryChargeTextView"
         android:layout_width="match_parent"
@@ -117,6 +129,7 @@
         android:layout_marginTop="16dp"
         android:text="Delivery Charge: $0.00" />
 
+
     <TextView
         android:id="@+id/totalCostTextView"
         android:layout_width="match_parent"
@@ -124,5 +137,6 @@
         android:layout_below="@id/deliveryChargeTextView"
         android:layout_marginTop="16dp"
         android:text="Total Cost: $0.00" />
+
 
 </RelativeLayout>

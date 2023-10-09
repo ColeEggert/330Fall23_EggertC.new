@@ -4,9 +4,11 @@ plugins {
     id ("kotlin-parcelize")
 }
 
+
 android {
     namespace = "com.example.mulchapp"
     compileSdk = 33
+
 
     defaultConfig {
         applicationId = "com.example.mulchapp"
@@ -15,8 +17,10 @@ android {
         versionCode = 1
         versionName = "1.0"
 
+
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
+
 
     buildTypes {
         release {
@@ -36,7 +40,9 @@ android {
     }
 }
 
+
 dependencies {
+
 
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
