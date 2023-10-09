@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/mulchRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/mulchTypePremiumBark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:tag="56.00"
+            android:text=" Premium Bark Mulch \n($56 / cubic yard)" />
+
+        <RadioButton
+            android:id="@+id/mulchTypeSpecialBlend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:tag="35.00"
+            android:text=" Special Blend \n($35 / cubic yard)" />
+
+        <RadioButton
+            android:id="@+id/mulchTypeTripleGround"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:tag="40.00"
+            android:text=" Triple Ground \n$40 / cubic yard)" />
+
+        <RadioButton
+            android:id="@+id/mulchTypeChocolateDyed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:tag="38.00"
+            android:text=" Chocolate Dyed \n($38 / cubic yard)" />
+
+        <RadioButton
+            android:id="@+id/mulchTypeRedDyed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:tag="38.00"
+            android:text=" Red Dyed \n($38 / cubic yard)" />
+
+        <RadioButton
+            android:id="@+id/mulchTypeBlackDyed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:tag="38.00"
+            android:text=" Black Dyed \n($38 / cubic yard)" />
+
+        <RadioButton
+            android:id="@+id/mulchTypePlayMat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:tag="38.00"
+            android:text=" Play Mat \n($38 / cubic yard)" />
+
+        <RadioButton
+            android:id="@+id/mulchTypeCedar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:tag="38.00"
+            android:text=" Cedar \n($38 / cubic yard)" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mulchRadioGroup"
+        android:layout_centerHorizontal="true"
+        android:text="Next" />
+</RelativeLayout>

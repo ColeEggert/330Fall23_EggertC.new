@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".OrderMulchActivity">
+
+    <TextView
+        android:id="@+id/mulchTypeAndCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Mulch Type: "
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/cubicYardsInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mulchTypeAndCost"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Cubic Yards"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/streetInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cubicYardsInput"
+        android:layout_marginTop="16dp"
+        android:hint="@string/streetAddress"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/cityInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/streetInput"
+        android:layout_marginTop="16dp"
+        android:hint="@string/city"
+        android:minHeight="48dp"/>
+
+    <EditText
+        android:id="@+id/stateInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cityInput"
+        android:layout_marginTop="16dp"
+        android:hint="@string/state"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/zipCodeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/stateInput"
+        android:layout_marginTop="16dp"
+        android:hint="ZIP Code"
+        android:inputType="number"
+        android:maxLength="5"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/zipCodeInput"
+        android:layout_marginTop="16dp"
+        android:hint="@string/emailAddress"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/phoneInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailInput"
+        android:layout_marginTop="16dp"
+        android:hint="@string/phoneNumber"
+        android:inputType="phone"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Next" />
+
+    <TextView
+        android:id="@+id/mulchCostTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nextButton"
+        android:layout_marginTop="16dp"
+        android:text="Mulch Cost: $0.00" />
+
+    <TextView
+        android:id="@+id/salesTaxTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mulchCostTextView"
+        android:layout_marginTop="16dp"
+        android:text="Sales Tax: $0.00" />
+
+    <TextView
+        android:id="@+id/deliveryChargeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/salesTaxTextView"
+        android:layout_marginTop="16dp"
+        android:text="Delivery Charge: $0.00" />
+
+    <TextView
+        android:id="@+id/totalCostTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/deliveryChargeTextView"
+        android:layout_marginTop="16dp"
+        android:text="Total Cost: $0.00" />
+
+</RelativeLayout>
