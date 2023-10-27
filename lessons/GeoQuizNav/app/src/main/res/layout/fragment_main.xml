@@ -1,0 +1,15 @@
+<!-- fragment_main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/startQuizButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Quiz"
+        android:layout_centerInParent="true" />
+
+    <!-- Any other UI elements or views specific to com.bignerdranch.android.geoquiz.MainFragment can be added here. -->
+
+</RelativeLayout>
