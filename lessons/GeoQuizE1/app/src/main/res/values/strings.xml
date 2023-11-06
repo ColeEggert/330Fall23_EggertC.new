@@ -20,4 +20,25 @@
     <string name="show_answer_button">Show Answer</string>
     <string name="cheat_button">Cheat!</string>
     <string name="judgment_toast">Cheating is wrong.</string>
+    <string name="prev">PREV</string>
+    <string name="question_amazon_river">The Amazon River is the longest river in the world.</string>
+    <string name="question_great_wall_of_china">The Great Wall of China cannot be seen from space with the naked eye.</string>
+    <string name="question_antarctica_driest_continent">Antarctica is the driest continent on Earth.</string>
+    <string name="question_sahara_desert_largest_hot_desert">The Sahara Desert is the largest hot desert in the world.</string>
+    <string name="question_mount_everest_tallest_mountain">Mount Everest is the tallest mountain in the world.</string>
+    <string name="question_equator_passes_through_african_countries">The equator passes through several countries in Africa.</string>
+    <string name="question_russia_spans_two_continents">Russia spans two continents, Europe and Asia.</string>
+    <string name="question_us_largest_number_of_time_zones">The United States has the largest number of time zones in the world.</string>
+    <string name="question_pacific_ocean_largest_and_deepest">The Pacific Ocean is the largest and deepest ocean on Earth.</string>
+    <string name="question_dead_sea_saltwater_lake">The Dead Sea is actually a saltwater lake, not a sea.</string>
+    <string name="question_nile_river_longest_river">The Nile River is the longest river in the world.</string>
+    <string name="question_australia_country_and_continent">Australia is both a country and a continent.</string>
+    <string name="question_prime_meridian_runs_through_greenwich">The Prime Meridian runs through Greenwich, England.</string>
+    <string name="question_andes_mountains_longest_range">The Andes Mountains are the longest mountain range in the world.</string>
+    <string name="question_largest_ocean_surface_area">The largest ocean in terms of surface area is the Pacific Ocean.</string>
+    <string name="question_uk_includes_england_scotland_wales_not_northern_ireland">The United Kingdom includes the countries of England, Scotland, and Wales, but not Northern Ireland.</string>
+    <string name="question_eiffel_tower_located_in_paris">The Eiffel Tower is located in Paris, France.</string>
+    <string name="question_mount_kilimanjaro_tallest_mountain_in_africa">Mount Kilimanjaro is the tallest mountain in Africa.</string>
+    <string name="question_great_barrier_reef_worlds_largest_coral_reef_in_australia">The Great Barrier Reef is the world\'s largest coral reef system and is located in Australia.</string>
+    <string name="question_chile_has_coastline_along_pacific_not_atlantic">The country of Chile has a coastline along the Pacific Ocean but not the Atlantic Ocean.</string>
 </resources>
