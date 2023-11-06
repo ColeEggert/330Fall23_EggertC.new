@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">GeoQuizNav</string>
+    <string name="question_australia">Canberra is the capital of Australia.</string>
+    <string name="question_oceans">The Pacific Ocean is larger than
+        the Atlantic Ocean.</string>
+    <string name="question_mideast">The Suez Canal connects the Red Sea
+        and the Indian Ocean.</string>
+    <string name="question_africa">The source of the Nile River is in Egypt.</string>
+    <string name="question_americas">The Amazon River is the longest river
+        in the Americas.</string>
+    <string name="question_asia">Lake Baikal is the world\'s oldest and deepest
+        freshwater lake.</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+    <string name="next_button">Next</string>
+
+    <string name="warning_text">Are you sure you want to do this?</string>
+    <string name="show_answer_button">Show Answer</string>
+    <string name="cheat_button">Cheat!</string>
+    <string name="judgment_toast">Cheating is wrong.</string>
+    <string name="prev_button">Prev</string>
+    <string name="question_amazon_river">The Amazon River is the longest river in the world.</string>
+    <string name="question_great_wall">The Great Wall of China cannot be seen from space with the naked eye.</string>
+    <string name="question_antarctica">Antarctica is the driest continent on Earth.</string>
+    <string name="question_sahara_desert">The Sahara Desert is the largest hot desert in the world.</string>
+    <string name="question_mount_everest">Mount Everest is the tallest mountain in the world.</string>
+    <string name="question_equator">The equator passes through several countries in Africa.</string>
+    <string name="question_russia">Russia spans two continents, Europe and Asia.</string>
+    <string name="question_time_zones">The United States has the largest number of time zones in the world.</string>
+    <string name="question_pacific_ocean">The Pacific Ocean is the largest and deepest ocean on Earth.</string>
+    <string name="question_dead_sea">The Dead Sea is actually a saltwater lake, not a sea.</string>
+    <string name="question_nile_river">The Nile River is the longest river in the world.</string>
+    <string name="question_australia_country">Australia is both a country and a continent.</string>
+    <string name="question_prime_meridian">The Prime Meridian runs through Greenwich, England.</string>
+    <string name="question_andes_mountains">The Andes Mountains are the longest mountain range in the world.</string>
+    <string name="question_largest_ocean">The largest ocean in terms of surface area is the Pacific Ocean.</string>
+    <string name="question_uk_countries">The United Kingdom includes the countries of England, Scotland, and Wales, but not Northern Ireland.</string>
+    <string name="question_eiffel_tower">The Eiffel Tower is located in Paris, France.</string>
+    <string name="question_mount_kilimanjaro">Mount Kilimanjaro is the tallest mountain in Africa.</string>
+    <string name="question_great_barrier_reef">The Great Barrier Reef is the world\'s largest coral reef system and is located in Australia.</string>
+    <string name="question_chile_coastline">The country of Chile has a coastline along the Pacific Ocean but not the Atlantic Ocean.</string>
+</resources>
